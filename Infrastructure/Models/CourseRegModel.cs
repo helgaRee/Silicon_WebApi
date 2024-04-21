@@ -1,0 +1,16 @@
+﻿namespace Infrastructure.Models;
+
+public class CourseRegModel
+{
+    public bool IsBestSeller { get; set; }
+    public string Image { get; set; } = null!;
+
+    public string Title { get; set; } = null!;
+    public string Author { get; set; } = null!;
+
+    public string Price { get; set; } = null!;
+    public string? DiscountPrice { get; set; }
+    public string Hours { get; set; } = null!;
+    public string LikesInNumers { get; set; } = null!;
+    public string LikesInProcent { get; set; } = null!;
+}
